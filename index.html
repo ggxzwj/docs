@@ -26,6 +26,7 @@
       window.$docsify = {
         name: '睿吃指导', // 网站名称
         coverpage: true,
+        onlyCover: true,
         repo: '',
         loadSidebar: true, // 自定义侧边栏
         loadNavbar: true, //顶部导航
@@ -51,7 +52,9 @@
           twitter: true,
           whatsapp: true,
           telegram: true
-        }
+        },
+        // 评论系统
+        disqus: 'shortname'
       }
     </script>
     <!-- Docsify v4 -->
@@ -60,6 +63,7 @@
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
     <script src="//unpkg.com/docsify-share/build/index.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
   </body>
   <style></style>
 </html>
